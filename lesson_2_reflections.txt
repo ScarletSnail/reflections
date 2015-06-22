@@ -1,0 +1,7 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+
+git init transforms directory into git repository (creates .git subdirectory with all needed for repository data). Initialization of repo allows to start tracking files and perform commits.
+
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area helps to provide "logical change-one commit" style of commiting and gives flexibility and control. Repository=all files in directory, working area=changed and working on files, staging area=files prepared for next commit.
