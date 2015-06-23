@@ -5,3 +5,29 @@ git init transforms directory into git repository (creates .git subdirectory wit
 2.How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area helps to provide "logical change-one commit" style of commiting and gives flexibility and control. Repository=all files in directory, working area=changed and working on files, staging area=files prepared for next commit.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+
+Staging area gives opportunity to work with such concepts as staged and unstaged files, and allows to select file(s) for commit from changed files; it provide control of commit size and division of all changes to separate logical commits if it's needed.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+New branches can be helpful if you need to create experimental feature, to fix some bug or to create new feature. It allows to have stable working master branch (production branch) and make changes and new features development in parallel without breaking the program. After testing new feature of bug fixes you can merge new branch with master. Branches are useful in team work.
+
+5.How do the diagrams help you visualize the branch structure?
+
+It shows exact place where branch occurs, what commits are in all branches, and in what points branches were merged.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is single branch with all commits from both integrated branches.The resulting merge commit becomes the new head of current branch. In diagram we can see that merged commit has two parents.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros
+Automatic merging allows to save a lot of time. Manually merges allow to be sure in correct merging, especially working on big changes or in collaborating with other people.
+
+Cons
+Possible errors in automatic merging aren't excluded. Manually merges requires great attention. 
+
+
