@@ -1,2 +1,40 @@
-1.When would you want to use a remote repository rather than keeping all your work
-local?
+1.When would you want to use a remote repository rather than keeping all your work local?
+Remote repository allows to show project to anyone who are interested in it, but at the same time to track changes, 
+set limited acces for making changes.
+
+
+2.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Manually pull allows to control process and provide more flexibility. Automatic update can cause conflists with files you are currently 
+working on.
+ 
+
+3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches are used in the same repository to make new feature, clones allow to copy .git repository with all commits to 
+anywhere you need,fork provide special clone in GitHub with strict accces to changes of repo (pull request is needed).
+Clone repo is useful if you want to work locallly rather in GitHub.
+
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It's useful if you are going to be offline for sometime, but still will be working on project. Also it allows to test merge or explore 
+remote version features if you need.
+
+
+5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Git is great tool, it's really helpful, provides nice support for non-linear development. COllaborating without Git or other vcs
+complicates the work. Without vcs, probably, work need  frequent meetings and constant coordination of changes,
+it causes inability to work on the next problem until the previous one will not be solved. I think usage of non-specific for software 
+tools (like Google docs, etc.) will not solve such problem.
+
+
+6.When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in separate branch allows to provide working version of soft in master branch and don't broke the system while 
+creating new feature. Development in separate branch allows many people to work on many issues at the same time. 
+Making change in master branch allow to do not get conflicts and do not make merdges.
+
+
+
+
