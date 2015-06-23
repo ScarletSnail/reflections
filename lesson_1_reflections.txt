@@ -7,19 +7,22 @@ Viewing a diff allows to pay attention on particular lines of code, to see added
 
 It helps to view changes and fix bugs if it appear more quickly, saves time for tracking changes.
 
-3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google docs does?
 
 Pros
 Manually choosing allows to provide commit after each logical change and creates clear commit tree
-Automatically saved commit can be non-logical and don't include completed piece of work. Also, it may include several not related changes in different functions or files that need to be included in few commits.
+Automatically saved commit can be non-logical and don't include completed piece of work. Also, it may include several not related 
+changes in different functions or files that need to be included in few commits.
 
 Cons
 Need to correctly understand right time for commit action (not too big or too small changes).
 
-4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, 
+treat each file separately?
 
-
-Git is totally programming tool designed for coding purposes while Google docs has other purpose and tracking changes is additional but not the main feature.
+Git is totally programming tool designed for coding purposes while Google docs has other purpose and tracking changes is additional 
+but not the main feature.
 
 5.How can you use the commands git log and git diff to view the history of files?
 
@@ -28,7 +31,7 @@ git diff shows the difference between two commits: what files changed and what c
 
 6.How might using version control make you more confident to make changes that could break something?
 
-Because you can always checkout working version without bug and don't be afraid to break the code 
+Because you can always checkout working version without bug and don't be afraid to break the code.
 
 
 7.Now that you have your workspace set up, what do you want to try using Git for?
